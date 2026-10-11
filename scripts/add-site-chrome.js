@@ -6,7 +6,7 @@ const { email } = JSON.parse(readFileSync('resume.json', 'utf8')).basics
 
 const css = `<style>
 .site-bar,.site-credits{font-family:'Space Mono',monospace;text-transform:uppercase;letter-spacing:1px}
-.site-bar{max-width:900px;margin:0 auto;box-sizing:border-box;border:4px solid #0a0a0a;display:flex;flex-wrap:wrap;gap:12px;justify-content:flex-end;padding:12px 16px;border-bottom-width:0}
+.site-bar{display:flex;flex-wrap:wrap;gap:12px;justify-content:flex-end;padding:12px 16px;border-top:4px solid #0a0a0a;border-bottom:2px solid #0a0a0a}
 .site-bar a{background:#0a0a0a;color:#fff;font-weight:700;font-size:13px;text-decoration:none;padding:8px 14px;border:2px solid #0a0a0a;box-shadow:4px 4px 0 #ffe600}
 .site-bar a:hover,.site-bar a:focus-visible{background:#ffe600;color:#0a0a0a;box-shadow:4px 4px 0 #0a0a0a;outline:none}
 .site-credits{padding:16px;font-size:11px;border-top:2px solid #0a0a0a;border-bottom:4px solid #0a0a0a}
@@ -26,6 +26,6 @@ Built from <a href="https://jsonresume.org">JSON Resume</a> with <a href="https:
 
 const html = readFileSync(file, 'utf8')
   .replace('</head>', `${css}</head>`)
-  .replace('<body>', `<body>${bar}`)
+  .replace('<header', `${bar}<header`)
   .replace('</main>', `</main>${credits}`)
 writeFileSync(file, html)
