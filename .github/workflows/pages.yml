@@ -27,9 +27,15 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
-        env:
-          PUPPETEER_SKIP_DOWNLOAD: 'true'
-      - run: mkdir -p site && npx resumed render resume.json --theme "$PWD/themes/brutalist/index.js" --output site/index.html
+      # Ubuntu 24.04 blocks the user namespaces Chrome's sandbox needs for the PDF export.
+      - run: sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0
+      - name: Build site
+        run: |
+          THEME="$PWD/themes/brutalist/index.js"
+          mkdir -p site
+          npx resumed render resume.json --theme "$THEME" --output site/index.html
+          npx resumed export resume.json --theme "$THEME" --output site/Aryuth-Ekkul-CV.pdf
+          node scripts/add-site-chrome.js site/index.html Aryuth-Ekkul-CV.pdf
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
