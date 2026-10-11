@@ -16,6 +16,7 @@ const css = `<style>
 
 const bar = `<nav class="site-bar" aria-label="Actions">
 <a href="${pdf}" download>Download PDF</a>
+<a href="resume.json" target="_blank" rel="noopener">JSON Resume</a>
 <a href="mailto:${email}">Email me</a>
 </nav>`
 

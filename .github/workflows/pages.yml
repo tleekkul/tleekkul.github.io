@@ -35,6 +35,7 @@ jobs:
           mkdir -p site
           npx resumed render resume.json --theme "$THEME" --output site/index.html
           npx resumed export resume.json --theme "$THEME" --output site/Aryuth-Ekkul-CV.pdf
+          cp resume.json site/
           node scripts/add-site-chrome.js site/index.html Aryuth-Ekkul-CV.pdf
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
