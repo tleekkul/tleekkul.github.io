@@ -1,0 +1,193 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Aryuth Ekkul",
+    "label": "AI-Augmented Principal Engineer",
+    "email": "e.aryuth@gmail.com",
+    "summary": "I am a principal engineer with 14 years of backend experience, and I use AI agents to deliver business results faster. At Crossover (Trilogy), I build the systems behind an AI-driven hiring platform that handles about 700,000 applications a year. My work automates candidate screening, gives pipeline managers direct access to the data they act on, and helps fill hard-to-staff roles. My team and I built an AI-first way of working that lets a small team ship with high autonomy, much faster than before. Before that, I built fintech services for millions of users at EarnIn and an adaptive learning platform for Alpha School. I mentor engineers on AI-first delivery. I am looking for a principal or staff backend role with an international team in Bangkok.",
+    "location": {
+      "city": "Bangkok",
+      "countryCode": "TH"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "aryuth-ekkul",
+        "url": "https://www.linkedin.com/in/aryuth-ekkul"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Trilogy (Crossover)",
+      "position": "AI-Augmented Full-Stack Principal Engineer",
+      "location": "Remote, Bangkok",
+      "startDate": "2025-06",
+      "summary": "Core engineer on Crossover, Trilogy's AI-driven hiring platform (~700k applications per year). Stack: TypeScript, AWS Lambda, Salesforce Apex, PostgreSQL, React, Claude / Bedrock.",
+      "highlights": [
+        "Replaced manual candidate screening with an AI interview that assesses every applicant against the role's requirements, so hiring managers spend time only on qualified candidates.",
+        "Helped turn a small team into an AI-first delivery unit that ships product changes with high autonomy, much faster than two years ago.",
+        "Gave pipeline managers and AI agents self-serve, secure access to live hiring data, so they act on data more easily and without an engineer.",
+        "Built candidate-to-seat matching and daily outreach that help fill hard-to-staff campus roles.",
+        "Mentored and onboarded 5+ engineers and product managers into AI-first ways of working."
+      ]
+    },
+    {
+      "name": "EarnIn",
+      "position": "Senior Backend Developer",
+      "location": "Bangkok",
+      "startDate": "2024-03",
+      "endDate": "2025-06",
+      "summary": "Earned-wage-access fintech with millions of users. Stack: C#, Kotlin, TypeScript.",
+      "highlights": [
+        "Built and maintained the bank-connection services that link users' bank accounts through Plaid, and reduced production incidents in this money-critical path.",
+        "Built the External Data Exchange (EDX) services that move earnings and pay data between EarnIn and payroll partners.",
+        "Maintained the User service, the core account service behind the app, and shared on-call for production incidents."
+      ]
+    },
+    {
+      "name": "Trilogy",
+      "position": "Back-end Principal Engineer",
+      "location": "Remote, Bangkok",
+      "startDate": "2022-09",
+      "endDate": "2024-02",
+      "summary": "Stack: TypeScript, AWS serverless (Lambda, AppSync, Cognito, Aurora Serverless MySQL, Athena, Glue, S3, QuickSight), AWS CDK.",
+      "highlights": [
+        "Built the backend of Alpha Coachbot, the adaptive learning platform that Alpha School used with ~400 students. It combined Khan Academy, IXL, Duolingo and other apps into one personal learning plan per student, so coaches could see and steer each student's progress.",
+        "Delivered serverless AWS services with a distributed global team, with automated releases that shortened the path from idea to production.",
+        "Set coding standards and a quality plan for a large legacy codebase, which reduced rework and kept delivery predictable."
+      ]
+    },
+    {
+      "name": "Biggest Fan Productions",
+      "position": "System Architect",
+      "location": "Bangkok",
+      "startDate": "2020-08",
+      "endDate": "2022-08",
+      "highlights": [
+        "Led a two-way concert-streaming platform that kept live music income going during COVID. Performers and ~400 viewers interacted in real time with 150 ms latency.",
+        "Mentored a team of about 20 developers.",
+        "Led the company's pivot to blockchain products, including a multi-chain NFT project."
+      ],
+      "summary": "Stack: C++, Python, V4L2, CUDA, PostgreSQL, Web3."
+    },
+    {
+      "name": "HotNow (acquired Proteus Technologies)",
+      "position": "Technical Lead",
+      "location": "Bangkok",
+      "startDate": "2018-10",
+      "endDate": "2020-08",
+      "highlights": [
+        "Led a squad of 6-8 developers, 2-3 testers and a product owner.",
+        "Built the multi-tenant login, inventory and accounting services that let the company serve many merchants on one platform.",
+        "Led the integration of the acquired Proteus systems, so the merged company ran on one platform."
+      ],
+      "summary": "Stack: Python, C++, PostgreSQL, Kubernetes, Helm, Jenkins, GitLab CI."
+    },
+    {
+      "name": "Proteus Technologies",
+      "position": "Frontend Developer to Technical Lead (Backend)",
+      "location": "Bangkok",
+      "startDate": "2014-09",
+      "endDate": "2018-10",
+      "highlights": [
+        "Led the billing system for a major Southeast Asian e-commerce company, which processed 2M+ transactions per week.",
+        "Grew from frontend developer to backend technical lead across 8 client projects in HR, travel, legal tech and fulfilment."
+      ],
+      "summary": "Stack: Python, Django, React, Angular, PostgreSQL, Docker."
+    },
+    {
+      "name": "OgilvyOne Worldwide",
+      "position": "Software Engineer",
+      "location": "Bangkok",
+      "startDate": "2013-11",
+      "endDate": "2014-09",
+      "highlights": [
+        "Built a Coca-Cola Facebook app that went viral with millions of Thai users."
+      ]
+    },
+    {
+      "name": "United Technology for Alliance",
+      "position": "Web Developer",
+      "location": "Bangkok",
+      "startDate": "2012-05",
+      "endDate": "2013-10",
+      "highlights": [
+        "Built an ERP system for Thai furniture SMEs (PHP, MySQL)."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Chulalongkorn University",
+      "studyType": "Bachelor of Engineering",
+      "area": "Information and Communication Engineering",
+      "startDate": "2008",
+      "endDate": "2012"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "keywords": [
+        "TypeScript",
+        "Node.js",
+        "Python",
+        "C#",
+        "Kotlin",
+        "Apex",
+        "SQL",
+        "C++"
+      ]
+    },
+    {
+      "name": "Cloud and data",
+      "keywords": [
+        "AWS Lambda",
+        "Step Functions",
+        "EventBridge",
+        "AppSync",
+        "Cognito",
+        "Aurora",
+        "Athena",
+        "Glue",
+        "S3",
+        "AWS CDK",
+        "PostgreSQL",
+        "Salesforce"
+      ]
+    },
+    {
+      "name": "AI engineering",
+      "keywords": [
+        "AI agents",
+        "Model Context Protocol (MCP)",
+        "Claude",
+        "Amazon Bedrock",
+        "LLM evaluation",
+        "Langfuse"
+      ]
+    },
+    {
+      "name": "Practices",
+      "keywords": [
+        "System design",
+        "Agentic development workflows",
+        "Code review",
+        "Root-cause analysis",
+        "CI/CD",
+        "Mentoring"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Thai",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Professional working proficiency"
+    }
+  ]
+}
