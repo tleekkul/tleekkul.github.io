@@ -29,7 +29,7 @@ jobs:
       - run: npm ci
         env:
           PUPPETEER_SKIP_DOWNLOAD: 'true'
-      - run: mkdir -p site && npx resumed render resume.json --theme ./themes/brutalist/index.js --output site/index.html
+      - run: mkdir -p site && npx resumed render resume.json --theme "$PWD/themes/brutalist/index.js" --output site/index.html
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
